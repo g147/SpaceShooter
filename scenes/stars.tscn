@@ -1,0 +1,68 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://sprites/stars_far.png" type="Texture" id=1]
+[ext_resource path="res://scripts/star.gd" type="Script" id=2]
+[ext_resource path="res://sprites/stars_close.png" type="Texture" id=3]
+
+[node name="stars" type="Node"]
+
+[node name="stars_far" type="Node2D" parent="." index="0"]
+
+[node name="star_far_0" type="Sprite" parent="stars_far" index="0"]
+
+position = Vector2( 0, -180 )
+texture = ExtResource( 1 )
+centered = false
+script = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
+velocity = Vector2( 0, 50 )
+
+[node name="star_far_1" type="Sprite" parent="stars_far" index="1"]
+
+texture = ExtResource( 1 )
+centered = false
+script = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
+velocity = Vector2( 0, 50 )
+
+[node name="star_far_2" type="Sprite" parent="stars_far" index="2"]
+
+position = Vector2( 0, 180 )
+texture = ExtResource( 1 )
+centered = false
+script = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
+velocity = Vector2( 0, 50 )
+
+[node name="stars_close" type="Node2D" parent="." index="1"]
+
+z_index = 10
+_sections_unfolded = [ "Z Index" ]
+
+[node name="star_close_0" type="Sprite" parent="stars_close" index="0"]
+
+position = Vector2( 0, -180 )
+texture = ExtResource( 3 )
+centered = false
+script = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
+velocity = Vector2( 0, 100 )
+
+[node name="star_close_1" type="Sprite" parent="stars_close" index="1"]
+
+texture = ExtResource( 3 )
+centered = false
+script = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
+velocity = Vector2( 0, 100 )
+
+[node name="star_close_2" type="Sprite" parent="stars_close" index="2"]
+
+position = Vector2( 0, 180 )
+texture = ExtResource( 3 )
+centered = false
+script = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
+velocity = Vector2( 0, 100 )
+
+

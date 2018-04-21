@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/laser_enemy.wav-9358b36bdc7592c53040d38a26b68cfa.sample"
+
+[deps]
+
+source_file="res://sounds/laser_enemy.wav"
+source_md5="4db32f659776a3e7f202670232dbb818"
+
+dest_files=[ "res://.import/laser_enemy.wav-9358b36bdc7592c53040d38a26b68cfa.sample" ]
+dest_md5="4be63955b0be6bd32a0b7870c2620a6e"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
